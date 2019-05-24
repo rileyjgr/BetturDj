@@ -20,6 +20,7 @@ db.on("error", console.error.bind(console, "connection error:"));
 
 db.once('open', function(){
     routes.app(app);
+    // routes.app(spotify);
     app.listen(PORT);
 });
 
