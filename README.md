@@ -41,7 +41,7 @@ npm run start
 
 ## Meta
 
-Your Name – [@Evoo_m5](https://twitter.com/evoo_m5) – rigriffin241@gmail.com
+Riley Griffin – [@Evoo_m5](https://twitter.com/evoo_m5) – rigriffin241@gmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
