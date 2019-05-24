@@ -7,18 +7,13 @@ import ReactTurntable from 'react-turntable';
 class TurnTable extends Component {
     render() {
         const styles ={
-            justifyContent: 'left',
-            alignContent: 'left',
+            justifyContent: 'center',
+            alignContent: 'center',
             display: 'flex'
         }
 
-        const styles2 = {
-            justifyContent: 'right',
-            alignContent: 'right',
-            display: 'flex'
-        }
-
-        const prizes = ['', ''];
+        const prizes = ['Song Name', 'Arist Name'];
+        // const prizes2 = ['Song Name2', 'Arist Name2']; 
         const options = {
             prizes,
             width: 300,
@@ -39,9 +34,11 @@ class TurnTable extends Component {
         }
 
         return (
-            <div style = {styles}>
-                <ReactTurntable {...options}/>
-                <ReactTurntable {...options2} />
+            <div>
+                <div style = {styles}>
+                    <ReactTurntable {...options}/>
+                    <ReactTurntable {...options2}/>
+                </div>               
             </div>
         )
     }
