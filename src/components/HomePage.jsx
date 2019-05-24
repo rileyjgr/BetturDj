@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import DjTables from './widgets/DjTables';
 import './assets/Home.css'
 import NavbarPage from './widgets/NavbarPage';
-// mimport Waveform from './widgets/Waveform';
+import VolumeControlSlider from './widgets/VolumeControlSlider';
 class HomePage extends Component {
     render() {
 
@@ -14,6 +14,7 @@ class HomePage extends Component {
                 <div id = 'turntables'>
                     <DjTables />
                 </div>
+                <VolumeControlSlider />
                 <div id ='footer'>
                     <h3>Created by Riley Griffin, <a href='wwww.rileygriffin.com'>Website</a>, <a href='github.com/rileyjgr'>Github</a></h3>
                 </div>
