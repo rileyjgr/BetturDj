@@ -11,6 +11,8 @@ render() {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/social">Social</Nav.Link>
           <Nav.Link href="/playlists">Playlists</Nav.Link>
+          <Nav.Link href="/loginspotify">Login with Spotify</Nav.Link>
+          <Nav.Link href="/spotifylogin">Login with Spotify</Nav.Link>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search Spotify" className="mr-sm-2" />
