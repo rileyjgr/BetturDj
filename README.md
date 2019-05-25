@@ -3,6 +3,12 @@
 
 Bettur Dj is an electron / react based application that is cross platform (Mac Os / Windows). Bettur Dj will provide a cleaner Ui and a way for music producers to deploy their music to spotify. Bettur Dj will also provide BPM calculations, music waveforms, and recording of mixes along with an easy way to deploy mixes to soundcloud. Bettur Dj will also have cloud based storage through Google Cloud Platform for you to store your music, and also allow you to pull songs from spotify so you have everything you need to keep the party alive. Please see below for a current and future UI ideas.
 
+The plan is for this to be open source.
+
+# Future Ideas
+
+Create pull request templates and easy way to integrate community made React widgets for the app.
+
 ![](mvp.png)
 
 ## Installation
